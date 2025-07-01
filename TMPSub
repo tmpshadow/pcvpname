@@ -13,4 +13,7 @@ vless://275fe2e7-7524-48df-aa52-271b455ea5cd@151.101.130.219:80?encryption=none&
 vless://c10a3651-7fbc-4bb0-877d-edf83de02492@151.101.3.8:80?mode=auto&path=%2F&security=none&encryption=none&host=hopeforall.com.global.prod.fastly.net&type=xhttp#🟡Irancell_Mci_MobileNet
 ss://YWVzLTI1Ni1nY206MGU5YjU4YWEtZWM3OS02ODI3LWM2NzktODAyZmYzMjliMWEx@37050813702269272654038283817908.international-ixp.com:11312#🔋OnlyMobileNet
 trojan://5d1e05a10f56f589@uk-01.allhubb.info:8443?security=tls&sni=uk-01.allhubb.info&alpn=h3%2Ch2%2Chttp%2F1.1&fp=firefox&type=tcp&headerType=none#📌🇬🇧01🖤DIRECT-01
+trojan://ed936760213a436f@uk-05.allhubb.info:8443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&headerType=&fp=android&type=tcp&sni=uk-05.allhubb.info#🇬🇧05🖤DIRECT-05
+vless://1eaa523a-dcf4-4c06-977b-6724a6a6ac4b@www.speedtest.net:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=uk-08.pezesh-kian.com&fp=chrome&type=ws&sni=uk-08.pezesh-kian.com#🇬🇧08🖤DIRECT-08
+vless://15945ed1-6b2a-46cb-acfc-dd852c9f9109@www.speedtest.net:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=uk-10.pezesh-kian.com&fp=chrome&type=ws&sni=uk-10.pezesh-kian.com#🇬🇧10🖤DIRECT-10
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJdEpSZTNENlpGNkpJUnBLMHE1bFpY@89.33.129.105:37451#💛SS-Direct-MCI_Irancell
