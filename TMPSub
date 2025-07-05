@@ -17,3 +17,427 @@ trojan://ed936760213a436f@uk-05.allhubb.info:8443?security=tls&alpn=h3%2Ch2%2Cht
 vless://1eaa523a-dcf4-4c06-977b-6724a6a6ac4b@www.speedtest.net:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=uk-08.pezesh-kian.com&fp=chrome&type=ws&sni=uk-08.pezesh-kian.com#🇬🇧08🖤DIRECT-08
 vless://15945ed1-6b2a-46cb-acfc-dd852c9f9109@www.speedtest.net:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=uk-10.pezesh-kian.com&fp=chrome&type=ws&sni=uk-10.pezesh-kian.com#🇬🇧10🖤DIRECT-10
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJdEpSZTNENlpGNkpJUnBLMHE1bFpY@89.33.129.105:37451#💛SS-Direct-MCI_Irancell
+{
+  "remarks": "🇬🇧10🖤MSh-test-2",
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "hosts": {},
+    "servers": [
+      "https://94.140.14.14/dns-query"
+    ],
+    "tag": "dns"
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": true
+      },
+      "tag": "http-in"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10853,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "1.1.1.1",
+        "network": "tcp,udp",
+        "port": 53
+      },
+      "tag": "dns-in"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "uk-10.ahmadbokhara.com",
+            "port": 8080,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "bca85b49-ab77-4ac6-9705-86cdb53f6990",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/ahmad"
+        },
+        "noneSettings": {
+          "security": "none"
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    },
+    {
+      "tag": "frag_1",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "10-20",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_2",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "20-30",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_3",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "30-40",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_4",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "40-50",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_5",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "50-60",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_6",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "60-70",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_7",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "70-80",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_8",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "80-90",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_9",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "90-100",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_10",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "10-30",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_11",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "20-40",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_12",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "30-50",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_13",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "40-60",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_14",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "50-70",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_15",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "60-80",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_16",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "70-90",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_17",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "80-100",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    },
+    {
+      "tag": "frag_18",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "100-200",
+          "interval": "1-1"
+        }
+      },
+      "proxySettings": {
+        "tag": "proxy"
+      }
+    }
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "inboundTag": [
+          "dns-in"
+        ],
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "8.8.8.8"
+        ],
+        "outboundTag": "direct",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "balancerTag": "all",
+        "type": "field",
+        "network": "tcp,udp"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "frag"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
+      }
+    ]
+  },
+  "observatory": {
+    "probeInterval": "1m",
+    "probeURL": "https://api.github.com/_private/browser/stats",
+    "subjectSelector": [
+      "frag"
+    ],
+    "EnableConcurrency": true
+  },
+  "stats": {}
+}
