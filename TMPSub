@@ -3,7 +3,7 @@ trojan://6448145a43e28cc4@uk-02.allhubb.info:8443?security=tls&sni=uk-02.allhubb
 trojan://1ce1df7962f71c6f@uk-03.allhubb.info:8443?security=tls&sni=uk-03.allhubb.info&alpn=h2%2Chttp%2F1.1&fp=chrome&type=tcp&headerType=none#🎶🇬🇧TryThis_UK_3
 vless://69fde111-7ffa-4b97-b939-78adf79ab27c@[2001:41d0:801:2000::3547]:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=uk-04.allhubb.info&alpn=h3%2Ch2%2Chttp%2F1.1&fp=randomized&type=tcp&headerType=none#🕹🇬🇧04-IPV6
 vless://0b4e0f6a-98a2-468a-910f-4a0b3fbeec36@151.101.3.8:80?mode=auto&path=%2F%3Fed%3D2560&security=none&encryption=none&host=hopeforall.com.global.prod.fastly.net&type=xhttp#💤MciNet
-vless://57349012-601d-4425-b5d2-3a94db2f4b1b@mtn.ivy-net.ir:8080?encryption=none&security=none&type=httpupgrade&host=PiLe.X-Zula.iR.#💎Permium💎
+vless://655a6041-0ab8-4a92-ad79-f0dba34f5ace@www.speedtest.net:8443?mode=auto&path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=uk-09.allhubb.info&fp=chrome&type=xhttp&sni=uk-09.allhubb.info#💎Permium💎
 trojan://ldq6RVIsLJ@uk-04.allhubb.info:8443?security=tls&sni=uk-04.allhubb.info&alpn=h3%2Ch2%2Chttp%2F1.1&fp=randomized&type=tcp&headerType=none#⭐🇬🇧04🖤DIRECT-4
 trojan://kaKB26OtTw@uk-05.allhubb.info:8443?security=tls&sni=uk-05.allhubb.info&alpn=h3%2Ch2%2Chttp%2F1.1&fp=android&type=tcp&headerType=none#📍🇬🇧05🖤UK-DIR
 vless://b35c4cec-4bd3-4ab5-81bd-77ff8cc3d182@www.speedtest.net:443?encryption=none&security=tls&sni=uk-06.pezesh-kian.com&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=uk-06.pezesh-kian.com&path=%2F%3Fed%3D2560#🇬🇧06🖤UK-06
