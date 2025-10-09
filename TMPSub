@@ -1,3 +1,10 @@
+vless://3313dd42-5c01-454b-a85d-9117004c31a9@[2001:41d0:801:2000::3a44]:443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&headerType=&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=uk-01.allhubb.info#🇬🇧VpnMoftiye?-IPV6-UK1
+trojan://42d956c6a66decda@uk-01.allhubb.info:8443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=grpc&sni=uk-01.allhubb.info#🇬🇧VpnMoftiye?-UK1
+trojan://e505990cb147cb64@uk-02.allhubb.info:8443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&headerType=&fp=random&type=tcp&sni=uk-02.allhubb.info#🇬🇧VpnMoftiye?-UK2
+vless://0fe7080f-bdf8-4941-ba5e-09c3ff5cb346@[2001:41d0:801:2000::5c5e]:443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&headerType=&fp=random&type=tcp&flow=xtls-rprx-vision&sni=uk-03.allhubb.info#🇬🇧VpnMoftiye?-IPV6-UK3
+trojan://3d66b6ac7a426653@uk-04.allhubb.info:8443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&headerType=&fp=randomized&type=tcp&sni=uk-04.allhubb.info#🇬🇧VpnMoftiye?-UK4
+trojan://7dad0f46f897498d@uk-05.allhubb.info:8443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&headerType=&fp=android&type=tcp&sni=uk-05.allhubb.info#🇬🇧VpnMoftiye?-UK5
+vless://15945ed1-6b2a-46cb-acfc-dd852c9f9109@uk-10.allhubb.info:443?path=%2FRWtshbknhebE&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&fp=chrome&type=xhttp&sni=uk-10.allhubb.info#🇬🇧VpnMoftiye?-UK10
 vless://655a6041-0ab8-4a92-ad79-f0dba34f5ace@www.speedtest.net:8443?mode=auto&path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=uk-09.allhubb.info&fp=chrome&type=xhttp&sni=uk-09.allhubb.info#📶TryThis_XFS
 trojan://6448145a43e28cc4@uk-02.allhubb.info:8443?security=tls&sni=uk-02.allhubb.info&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&type=tcp&headerType=none#🎵🇬🇧TryThis_UK_2
 trojan://1ce1df7962f71c6f@uk-03.allhubb.info:8443?security=tls&sni=uk-03.allhubb.info&alpn=h2%2Chttp%2F1.1&fp=chrome&type=tcp&headerType=none#🎶🇬🇧TryThis_UK_3
