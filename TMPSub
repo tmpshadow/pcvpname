@@ -1,3 +1,5 @@
+trojan://ER2vpLLIXR@51.195.255.103:8080?path=%2F&security=none&type=ws#🇬🇧VpnMoftiye?New_1
+vless://b57276e4-b28a-4381-aa3c-c0747d57f50f@51.68.197.174:2095?path=%2Fretybcajfgujbiorth%3Fed%3D2560&security=&encryption=none&type=ws#🇬🇧VpnMoftiye?New_2
 vless://3313dd42-5c01-454b-a85d-9117004c31a9@[2001:41d0:801:2000::3a44]:443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&headerType=&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=uk-01.allhubb.info#🇬🇧VpnMoftiye?-IPV6-UK1
 trojan://42d956c6a66decda@uk-01.allhubb.info:8443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=grpc&sni=uk-01.allhubb.info#🇬🇧VpnMoftiye?-UK1
 trojan://e505990cb147cb64@uk-02.allhubb.info:8443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&headerType=&fp=random&type=tcp&sni=uk-02.allhubb.info#🇬🇧VpnMoftiye?-UK2
